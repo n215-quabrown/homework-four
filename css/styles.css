@@ -164,6 +164,9 @@ header .button {
 #form .checkBox input {
   width: 85%;
 }
+#form .checkBox p {
+  width: 15%;
+}
 #form .dropBoxes {
   width: 818px;
   display: flex;
@@ -203,6 +206,9 @@ header .button {
 }
 
 @media screen and (max-width: 812px) {
+  #form {
+    padding: 10px;
+  }
   #form .topBoxes {
     flex-direction: column;
   }
@@ -211,6 +217,9 @@ header .button {
   }
   #form .topBoxes .longBox {
     width: 100%;
+  }
+  #form .dropBoxes input {
+    width: 90px;
   }
 }
 .featured {

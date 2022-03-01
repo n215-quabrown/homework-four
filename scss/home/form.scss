@@ -43,8 +43,10 @@
         justify-content: space-between;
         align-items: center;
         input {
-            // width: 698px;
             width: 85%;
+        }
+        p {
+            width: 15%;
         }
     }
     .dropBoxes {
@@ -88,6 +90,7 @@
 
 @media screen and (max-width: 812px) {
     #form {
+        padding: 10px;
         .topBoxes {
             flex-direction: column;
             .shortBox {
@@ -95,6 +98,11 @@
             }
             .longBox {
                 width: 100%;
+            }
+        }
+        .dropBoxes {
+            input {
+                width: 90px;
             }
         }
     }
